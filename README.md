@@ -8,7 +8,6 @@ A real-time chat application that allows users to create and join chat rooms, se
 - **Persistent Messaging:** All messages are stored in MongoDB, allowing users to view past conversations.
 - **Real-Time Communication:** Utilize WebSockets for instant message delivery across all users in a room.
 
-## Functional Requirements
 
 ### 1. Create Room
 - Users can create a new room by providing a unique name or ID.
@@ -26,17 +25,16 @@ A real-time chat application that allows users to create and join chat rooms, se
 ### 4. Real-Time Communication
 - WebSockets are used to ensure immediate message delivery to all users within a room.
 
-## Non-functional Requirements
 
-### 1. Scalability
+### 5. Scalability
 - Supports multiple rooms and concurrent users.
 - Efficient MongoDB schema design for managing large volumes of chat data.
 
-### 2. Performance
+### 6. Performance
 - Real-time message delivery with minimal latency.
 - Optimized REST API endpoints for fast and efficient data handling.
 
-### 3. User-Friendly Interface
+### 7. User-Friendly Interface
 - Clean, responsive design built with **React** and **TailwindCSS**.
 
 ## Tech Stack
